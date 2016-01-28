@@ -4,9 +4,9 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         id        = "com.phonegap.infracciones"
-        version   = "1.0.2">
+        version   = "1.1.0">
 
-    <name>Sistema de Infracciones</name>
+    <name>Infracciones</name>
 
     <description>
         Sistema de Infracciones
@@ -45,10 +45,13 @@
     <!-- Core plugins -->
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.device-orientation" />
+    <gap:plugin name="org.apache.cordova.camera" />
     <gap:plugin name="org.apache.cordova.inappbrowser" />
     <gap:plugin name="org.apache.cordova.splashscreen" />
+    <gap:plugin name="org.apache.cordova.media" />
+    <gap:plugin name="org.apache.cordova.file" />
 
-    <gap:plugin name="de.appplant.cordova.plugin.printer" />
+    <!--plugin name="Camera" value="org.apache.cordova.camera.CameraLauncher" /-->
     <!-- Third party plugins -->
     <!-- A list of available plugins are available at https://build.phonegap.com/plugins -->
     <!--

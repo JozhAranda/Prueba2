@@ -13,10 +13,11 @@ $(document).ready(function() {
         $("#textEmpty").text("Es necesario capturar por matrícula o número de licencia..."); 
         return false;
       }
+
+      document.activeElement.blur();
       
       $.ajax({
         type:'GET',
-        //url: "service.php?search=" + search,
         url: "http://joshuaranda.website/sspm/infraccion/service.php?search=" + search,
         async: true,
         crossDomain: true,
