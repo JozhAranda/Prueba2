@@ -18,7 +18,7 @@ $(document).ready(function() {
       
       $.ajax({
         type:'GET',
-        url: "http://joshuaranda.website/sspm/infraccion/service.php?search=" + search,
+        url: "http://joshuaranda.com/sspm/infraccion/service.php?search=" + search,
         async: true,
         crossDomain: true,
         dataType: "xml",            
